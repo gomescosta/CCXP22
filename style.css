@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*Cabeçalho*/
+header {
+    height: 118px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #FFD900;
+    padding: 1rem;
+
+}
+
+section div{
+    grid-template-rows: auto;
+    display: flex;
+}
+
+#mensagemEpico{
+    width: 50%;
+    display: block;
+}
+div #mensagemEpico{
+    background-color: #514988;
+    text-align: center;
+    color: white;
+    font-size:x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div #mensagemEpico h1{
+    color: #FFD900;
+    text-emphasis: 10px;
+}
+#maiorDE{
+    width: 40%;
+    float: left;
+    display: grid;
+}
+.timer{
+    display: grid;
+    grid-auto-flow:column;
+}
+#count{
+    color: #514988;
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+    text-align: center;
+}
+.data h1{
+    font-size:30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 0;
+}
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #E33881;
+    margin: 0;
+    padding: 0;
+}
+#videoArlequina{
+    padding: 0;
+    margin: 50px;
+    width: auto;
+    height: auto;
+}
+#videoContainer{
+    margin: 0;
+    padding: 0;
+}
+
+section div{
+    grid-template-rows: "a a";
+    display: flex;
+}
+#ingressos{
+    width: 60%;
+    display: flex;
+    float: left;
+    display: grid;
+}
+div h3 {
+    width: auto;
+}
+#textoIngressos {
+    color:#F3C61F;
+    width: 100%;
+    display: grid;
+    margin-left: 15%;
+}
+#imagens{
+    display: flex;
+}
+
+
+#botao {
+    width: 30%;
+    display: flex;
+    float: right;
+}
+
+button{
+    margin-top: 20%;
+    margin-left: 0;
+    width: 596px;
+    height: 148px;
+    color: white;
+    background-color: #514988;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15%;
+    cursor: pointer;
+}
+button:hover{background-color: #FFD900;}
